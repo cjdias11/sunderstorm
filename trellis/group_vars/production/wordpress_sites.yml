@@ -7,13 +7,13 @@ wordpress_sites:
     - canonical: sunderstormstage.christopherdias.com
       redirects: []
     local_path: ../site
-    branch: master
-    repo: git@github.com:example/example.com.git
+    branch: main
+    repo: git@github.com:cjknight11/sunderstorm.git
     repo_subtree_path: site
     multisite:
       enabled: false
     ssl:
-      enabled: false
+      enabled: true
       provider: letsencrypt
     cache:
       enabled: false
