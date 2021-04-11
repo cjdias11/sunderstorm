@@ -10,8 +10,8 @@
  * @since 1.0.0
  */
 
-if ( ! defined( 'ABSPATH' ) ) {
-	exit; // Exit if accessed directly.
+if (! defined('ABSPATH')) {
+    exit; // Exit if accessed directly.
 }
 
 ?><!DOCTYPE html>
@@ -19,7 +19,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 <html <?php language_attributes(); ?>>
 <head>
 <?php astra_head_top(); ?>
-<meta charset="<?php bloginfo( 'charset' ); ?>">
+<meta charset="<?php bloginfo('charset'); ?>">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="profile" href="https://gmpg.org/xfn/11">
 
@@ -78,6 +78,24 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <meta name="msapplication-TileImage" content="<?php echo get_template_directory_uri(); ?>/assets/images/ms-icon-144x144.png">
 <meta name="theme-color" content="#ffffff">
 
+<script type="text/javascript">
+	document.addEventListener("click", function(e) {
+      var linkNode = e.srcElement.href ? e.srcElement : e.srcElement.parentNode;
+	  if(linkNode.localName !== "a" || linkNode.href.endsWith("#")) return;
+	  
+	  e.preventDefault();
+	  var currentQuery = location.search.substr(1);
+	  var url = new URL(linkNode.href);
+	  url.search += (url.search.indexOf('?') > -1 ? '&' : '?') + currentQuery;
+	  var dst = e.target;
+	  if (dst.target) {
+		window.open(url.toString(), dst);
+	  } else {
+		location.assign(url.toString());
+	  }
+	});
+</script>
+
 </head>
 
 <body <?php astra_schema_body(); ?> <?php body_class(); ?>>
@@ -91,16 +109,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <?php wp_body_open(); ?>
 <div 
 	<?php
-	echo astra_attr(
-		'site',
-		array(
-			'id'    => 'page',
-			'class' => 'hfeed site',
-		)
-	);
-	?>
+    echo astra_attr(
+    'site',
+    array(
+            'id'    => 'page',
+            'class' => 'hfeed site',
+        )
+);
+    ?>
 >
-	<a class="skip-link screen-reader-text" href="#content"><?php echo esc_html( astra_default_strings( 'string-header-skip-link', false ) ); ?></a>
+	<a class="skip-link screen-reader-text" href="#content"><?php echo esc_html(astra_default_strings('string-header-skip-link', false)); ?></a>
 
 	<?php astra_header_before(); ?>
 
