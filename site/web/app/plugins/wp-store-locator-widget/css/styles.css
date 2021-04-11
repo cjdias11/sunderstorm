@@ -1,0 +1,46 @@
+@font-face {
+    font-family: 'wpsl-fontello';
+    src: url('../../wp-store-locator/font/fontello.eot?28897909');
+    src: url('../../wp-store-locator/font/fontello.eot?28897909#iefix') format('embedded-opentype'),
+         url('../../wp-store-locator/font/fontello.woff?28897909') format('woff'),
+         url('../../wp-store-locator/font/fontello.ttf?28897909') format('truetype'),
+         url('../../wp-store-locator/font/fontello.svg?28897909#fontello') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#wpsl-widget-form .wpsl-icon-direction {
+    position: relative;
+    padding: 7px 9px 7px 8px;
+    font-family: "wpsl-fontello";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.3em;
+    color: #737373;
+    speak: none;
+    text-decoration: inherit;
+    text-align: center;
+    font-variant: normal;
+    text-transform: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+#wpsl-widget-form .wpsl-icon-direction:hover {
+    cursor: pointer;
+    color: #000;
+    outline: none;
+}
+
+#wpsl-widget-form .wpsl-active-icon,
+#wpsl-widget-form .wpsl-active-icon:hover {
+    color: #000;
+}
+
+#wpsl-widget-form .wpsl-error {
+    border:1px solid #bd0028 !important;
+}
+
+#wpsl-widget-form label {
+    display: block;
+}

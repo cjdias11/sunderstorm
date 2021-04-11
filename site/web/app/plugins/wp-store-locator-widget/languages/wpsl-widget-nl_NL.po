@@ -1,0 +1,201 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Store Locator Widget v1.2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-12-15 16:03+0700\n"
+"PO-Revision-Date: 2018-12-15 16:05+0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: inc/class-widget.php:19
+msgid ""
+"Show a search form that enables users to search for nearby stores. The "
+"search results are shown on the store locator page."
+msgstr ""
+"Toon een zoek widget die het mogelijk maakt om naar winkel locaties in de "
+"buurt te zoeken. De zoek resultaten worden getoond op de store locator "
+"pagina."
+
+#: inc/class-widget.php:22
+msgid "WP Store Locator Search"
+msgstr "WP Store Locator zoeken"
+
+#: inc/class-widget.php:43
+#, php-format
+msgid ""
+"Before you can use the WP Store Locator Search widget, you need to select "
+"the page where you added the [wpsl] shortcode in the widget %ssettings%s."
+msgstr ""
+"Voordat je de zoek widget kan gebruiken moet eerst de pagina waar de [wpsl] "
+"shortcode gebruikt is geslecteerd worden in de widget %sinstellingen%s."
+
+#: inc/class-widget.php:86 inc/wpsl-widget-shortcode.php:33
+msgid "Enter your location"
+msgstr "Uw locatie"
+
+#: inc/class-widget.php:92 inc/wpsl-widget-shortcode.php:36
+msgid "Category filter"
+msgstr "Categorie filter"
+
+#: inc/class-widget.php:129
+msgid "Any"
+msgstr "Alle"
+
+#: inc/class-widget.php:166
+msgid "Used widget template"
+msgstr "Actieve widget template"
+
+#: inc/class-widget.php:179
+msgid "Title"
+msgstr "Titel"
+
+#: inc/class-widget.php:183
+msgid "Search label"
+msgstr "Zoek label"
+
+#: inc/class-widget.php:187
+msgid "Search field placeholder"
+msgstr "Zoek veld placeholder"
+
+#: inc/class-widget.php:193
+msgid "Enable autocomplete?"
+msgstr "Activeer autocomplete?"
+
+#: inc/class-widget.php:199
+msgid "Attempt to auto-locate the user?"
+msgstr "Probeer de locatie van de gebruiker automatische te achterhalen?"
+
+#: inc/class-widget.php:206
+msgid "Users can manually trigger geolocation requests?"
+msgstr "Gebruikers in de widget kiezen hun locatie te delen? "
+
+#: inc/class-widget.php:213
+msgid "Show store category filter *"
+msgstr "Toon winkel categorie filter *"
+
+#: inc/class-widget.php:216
+#, php-format
+msgid ""
+"If you enable this option, then make sure the \"Show the category dropdown?"
+"\" option is also enabled on the WPSL %ssettings%s page."
+msgstr ""
+"Als deze optie geactiveerd is zorg er dan voor dat de optie om categorieën "
+"te tonen ook geactiveerd is op de WPSL %sinstellingen%s pagina."
+
+#: inc/class-widget.php:218
+msgid "Category label"
+msgstr "Categorie label"
+
+#: inc/class-widget.php:222
+msgid "Select the page where you added the [wpsl] shortcode"
+msgstr "Selecteer de pagina waar de [wpsl] shortcode geplaatst is"
+
+#: inc/class-widget.php:229
+msgid "Select page"
+msgstr "Selecteer pagina"
+
+#: inc/wpsl-widget-functions.php:142
+msgid "Default"
+msgstr "Standaard"
+
+#: inc/wpsl-widget-functions.php:213
+#, php-format
+msgid "%sNote%s: this option requires %sHTTPS%s."
+msgstr "%sNote%s: deze optie vereist %sHTTPS%s"
+
+#: inc/wpsl-widget-shortcode.php:26
+#, php-format
+msgid ""
+"The WPSL search widget and the [wpsl_widget] shortcode can not both be "
+"active on the same page. You can disable the widget on the %sWidgets%s page."
+msgstr ""
+"De WPSL zoek widget en de [wpsl_widget] shortcode kunnen helaas niet samen "
+"actief zijn op dezelfde pagina. De widget kan worden uitgeschakeld op de "
+"%sWidget%s pagina."
+
+#: inc/wpsl-widget-shortcode.php:69
+#, php-format
+msgid ""
+"Before you can use the [wpsl_widget] shortcode you need to provide the "
+"%spage_id%s the store locator is used on by including it in the shortcode "
+"[wpsl_widget page_id=\"xxx\"]."
+msgstr ""
+"Voordat de [wpsl_widget] shortcode gebruikt kan worden moet de %spage_id%s "
+"van de store locator pagina in de shortcode worden aangegeven [wpsl_widget "
+"page_id=\"xxx\"]."
+
+#: templates/default.php:24
+msgid "Search"
+msgstr "Zoek"
+
+#: templates/default.php:26
+msgid "Use your current location"
+msgstr "Gebruik je huidige locatie"
+
+#: wp-store-locator-widget.php:94
+#, php-format
+msgid ""
+"The Search Widget add-on requires at least version %s of WP Store Locator. "
+"Please upgrade to the %slatest version%s."
+msgstr ""
+"De zoek widget veresit minimaal versie %s van de WP Store Locator. "
+"Installeer de %slaatste versie%s."
+
+#~ msgid ""
+#~ "Before you can use the [wpsl_widget] shortcode you need to either select "
+#~ "the page where you added the [wpsl] shortcode in the widget %ssettings%s, "
+#~ "or provide the %spage ID%s the store locator is used on by including it "
+#~ "in the shortcode ( [wpsl_widget page_id=\"xxxx\"] )."
+#~ msgstr ""
+#~ "Voordat de [wpsl_widget] shortcode gebruikt kan worden moet de pagina "
+#~ "geselecteerd worden waar de [wpsl] shortcode gebruikt is op de widget "
+#~ "%sinstellingen%s pagina. Je kan ook de %spagina ID%s waar de store "
+#~ "locator gebruikt word doorgeven via de shortcode  ( [wpsl_widget page_id="
+#~ "\"xxxx\"] )."
+
+#~ msgid ""
+#~ "If you enable this option, then make sure the \"Show the category "
+#~ "dropdown?\" option is also enabled on the WP Store Locator %ssettings%s "
+#~ "page."
+#~ msgstr ""
+#~ "Als je deze optie activeerd, zorg dan dat de  \"Toon de categorie "
+#~ "dropdown?\" optie ook geactiveerd is op de WP Store Locator %sinstellingen"
+#~ "%s pagina."
+
+#~ msgid ""
+#~ "Please upgrade WP Store Locator to the %slatest version%s before using "
+#~ "the store search widget."
+#~ msgstr ""
+#~ "Update WP Store Locator naar de %slaatste versie%s voordat je de zoek "
+#~ "widget gebruikt."
+
+#~ msgid ""
+#~ "You need to install the %sWP Store Locator%s plugin before you can use "
+#~ "the store search widget."
+#~ msgstr ""
+#~ "De %sWP Store Locator%s plugin moet geinstalleerd zijn voordat je de zoek "
+#~ "widget kan gebruiken."
+
+#, fuzzy
+#~ msgid "Settings"
+#~ msgstr "Instellingen"
+
+#, fuzzy
+#~ msgid "Email"
+#~ msgstr "Dit e-mailadres staat al ingeschreven!"
+
+#, fuzzy
+#~ msgid "Select your region"
+#~ msgstr "Geef een geldig e-mailadres op!"
