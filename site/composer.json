@@ -56,7 +56,9 @@
     "wpackagist-plugin/webp-express": "*",
     "wpackagist-plugin/shortpixel-image-optimiser": "*",
     "wpackagist-plugin/wp-store-locator": "*",
-    "wpackagist-plugin/async-javascript": "*"
+    "wpackagist-plugin/async-javascript": "*",
+    "wpackagist-plugin/resmushit-image-optimizer": "*",
+    "wpackagist-plugin/wp-fastest-cache": "*"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.5.8",
