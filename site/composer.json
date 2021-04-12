@@ -54,7 +54,9 @@
     "wpackagist-plugin/page-links-to": "^3.3",
     "wpackagist-plugin/age-gate-plus": "^1.06",
     "wpackagist-plugin/webp-express": "*",
-    "wpackagist-plugin/shortpixel-image-optimiser": "*"
+    "wpackagist-plugin/shortpixel-image-optimiser": "*",
+    "wpackagist-plugin/wp-store-locator": "*",
+    "wpackagist-plugin/async-javascript": "*"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.5.8",

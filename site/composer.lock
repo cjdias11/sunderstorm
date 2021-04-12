@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "71bc009e6e746310c3a5c2111a78eee9",
+    "content-hash": "3b40a797d9f7ef78d9904aedbe6bb85f",
     "packages": [
         {
             "name": "composer/installers",
@@ -1029,6 +1029,24 @@
             "homepage": "https://wordpress.org/plugins/another-mailchimp-widget/"
         },
         {
+            "name": "wpackagist-plugin/async-javascript",
+            "version": "2.20.12.09",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/async-javascript/",
+                "reference": "tags/2.20.12.09"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/async-javascript.2.20.12.09.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/async-javascript/"
+        },
+        {
             "name": "wpackagist-plugin/classic-editor",
             "version": "1.6",
             "source": {
@@ -1261,6 +1279,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/wordpress-seo/"
+        },
+        {
+            "name": "wpackagist-plugin/wp-store-locator",
+            "version": "2.2.234",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/wp-store-locator/",
+                "reference": "tags/2.2.234"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wp-store-locator.2.2.234.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/wp-store-locator/"
         }
     ],
     "packages-dev": [
