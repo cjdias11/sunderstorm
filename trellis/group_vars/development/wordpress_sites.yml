@@ -2,7 +2,7 @@
 # Documentation: https://roots.io/trellis/docs/wordpress-sites/
 
 wordpress_sites:
-  sunderstorm.com:
+  sunderstormstage.christopherdias.com:
     site_hosts:
     - canonical: sunderstormstage.test
       redirects: []

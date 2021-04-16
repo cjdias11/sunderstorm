@@ -2,7 +2,7 @@
 # List each machine only once per [group], even if it will host multiple sites.
 
 [production]
-staging.sunderstorm.com
+test.sunderstorm.com
 
 [web]
-staging.sunderstorm.com
+test.sunderstorm.com
