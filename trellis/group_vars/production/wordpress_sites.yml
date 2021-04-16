@@ -4,8 +4,9 @@
 wordpress_sites:
   sunderstormstage.christopherdias.com:
     site_hosts:
-    - canonical: test.sunderstorm.com
-      redirects: []
+    - canonical: sunderstorm.com
+        redirects:
+          - www.sunderstorm.com
     local_path: ../site
     branch: main
     repo: git@github.com:cjknight11/sunderstorm.git
