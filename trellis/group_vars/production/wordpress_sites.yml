@@ -4,7 +4,7 @@
 wordpress_sites:
   sunderstormstage.christopherdias.com:
     site_hosts:
-    - canonical: sunderstorm.com
+      - canonical: sunderstorm.com
         redirects:
           - www.sunderstorm.com
     local_path: ../site
