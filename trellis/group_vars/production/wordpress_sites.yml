@@ -4,7 +4,7 @@
 wordpress_sites:
   sunderstorm.com:
     site_hosts:
-    - canonical: shadow.sunderstorm.com
+    - canonical: staging.sunderstorm.com
       redirects: []
     local_path: ../site
     branch: main
