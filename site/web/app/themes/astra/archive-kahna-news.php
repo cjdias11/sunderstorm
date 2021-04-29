@@ -11,8 +11,7 @@
 if (! defined('ABSPATH')) {
     exit; // Exit if accessed directly.
 }
-
-get_header(); ?>
+ ?>
 
 <?php
 /**
@@ -151,6 +150,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	<?php get_sidebar(); ?>
 
 <?php endif ?>
+
+<img width="300" height="243" src="https://sunderstorm.com/app/uploads/2021/04/KanhaLogo_FullStacked-300x243.png" class="attachment-medium size-medium" alt="" loading="lazy" srcset="https://sunderstorm.com/app/uploads/2021/04/KanhaLogo_FullStacked-300x243.png 300w, https://sunderstorm.com/app/uploads/2021/04/KanhaLogo_FullStacked-1030x833.png 1030w, https://sunderstorm.com/app/uploads/2021/04/KanhaLogo_FullStacked-768x621.png 768w, https://sunderstorm.com/app/uploads/2021/04/KanhaLogo_FullStacked-1536x1242.png 1536w, https://sunderstorm.com/app/uploads/2021/04/KanhaLogo_FullStacked.png 1838w" sizes="(max-width: 300px) 100vw, 300px">
 
 	<div id="primary" <?php astra_primary_class(); ?>>
 
