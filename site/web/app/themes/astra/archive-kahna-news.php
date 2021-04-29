@@ -173,4 +173,5 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 <?php endif ?>
 
-<?php get_footer(); ?>
+</body>
+</html>
