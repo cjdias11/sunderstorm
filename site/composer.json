@@ -58,7 +58,8 @@
     "wpackagist-plugin/wp-store-locator": "*",
     "wpackagist-plugin/async-javascript": "*",
     "wpackagist-plugin/resmushit-image-optimizer": "*",
-    "wpackagist-plugin/wp-fastest-cache": "*"
+    "wpackagist-plugin/wp-fastest-cache": "*",
+    "wpackagist-plugin/multiple-domain-mapping-on-single-site": "*"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.5.8",
